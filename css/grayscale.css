@@ -29,12 +29,12 @@
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(white, 80%);
   outline: none;
-  background-color: transparent;
+  background-color: #000000;
 }
 
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
-  background-color: transparent;
+  background-color: #000000;
 }
 
 @media (min-width: 992px) {
@@ -42,7 +42,7 @@
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: #000000;
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -196,7 +196,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #790a0a;
     border-width: .25rem;
     width: 30%;
   }
@@ -239,7 +239,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #790a0a;
   border-width: 0.25rem;
   width: 3rem;
 }
